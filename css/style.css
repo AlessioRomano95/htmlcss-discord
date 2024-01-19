@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(65, 65, 65);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header*/
+header{
+  background-color: #305fe2;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 82px;
+}
+
+.container-nav{
+  display: flex;
+  align-items: center;  
+}
+
+.special{
+  padding: 15px;
+}
+
+.logo{
+  display: flex;
+  width: 250px;
+}
+
+.nav ul{
+  display: flex;
+  justify-content: space-evenly;
+  width: 750px;
+  list-style-type: none;
+  }
+
+  .login{
+    display: flex;
+    width: 250px;
+    justify-content: flex-end;
+  }
+
+  .botton-log{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color:black;
+    font-weight: bold;
+  }
+
+/*jumbotron*/
+.jumbotron{
+  background-image: url(../img/jumbo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 520px;
+  display: flex;
+  justify-content: center;
+}
+
+.welcome {
+  height: 415px;
+  width: 650px;
+}
+
+h1{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+  margin:50px
+}
+
+p{
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-size: 16px ;
+  line-height: 25px;
+}
+
+.btn{
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.button{
+  padding: 10px;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.left{
+  margin-right: 20px;
+  background-color: white;
+}
+
+.right{
+  background-color: rgb(51, 51, 51);
+  color:white;
+}
+
+/*Container principali*/
+.container1{
+  background-color: rgb(233, 233, 233);
+  height: 624px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container2{
+  background-color: rgb(197, 197, 197);
+  height: 624px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container3{
+  background-color: rgb(233, 233, 233);
+  height: 624px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Interno conteiner 1-2-3 */
+/* 1 */
+.img1-1{
+  background-color: #404EED;
+  width: 750px;
+  height: 520px;
+}
+
+.img2-1{
+  background-color: #6771e4;
+  width: 500px;
+  height: 520px;
+}
+
+/* 2 */
+.img1-2{
+  background-color: #6771e4;
+  width: 500px;
+  height: 520px;
+}
+
+.img2-2{
+  background-color: #404EED;
+  width: 750px;
+  height: 520px;
+}
+
+/* 3 */
+.img1-3{
+  background-color: #404EED;
+  width: 750px;
+  height: 520px;
+}
+
+.img2-3{
+  background-color: #6771e4;
+  width: 500px;
+  height: 520px;
+}
+
+/* Container Big */
+.container-big{
+  background-color: rgb(197, 197, 197);
+  height: 1040px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-big{
+  background-color: #404EED ;
+  height: 935px;
+  width: 1250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*footer*/
+/* menu */
+.container-menu{
+  background-color: rgb(58, 58, 58);
+  height: 655px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu{
+  background-color: rgb(161, 161, 161);
+  height: 600px;
+  width: 1250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social{
+  background-color: #404EED ;
+  border: 1px solid rgb(112, 139, 226);
+  height: 600px;
+  width: 370px;
+  display: flex;
+}
+
+.menu-1{
+  background-color: rgb(83, 118, 233);
+  border: 1px solid rgb(112, 139, 226);
+  height: 600px;
+  width: 220px;
+  display: flex;
+}
+/* separate */
+.separate-2{
+  height: 2px;
+  background-color: #3745d6;
+  display: flex;
+}
+
+/*footerx2*/
+.footer{
+  background-color: rgb(58, 58, 58);
+  height: 114px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/*footer bottom*/
+.bottom{
+  background-color: rgb(83, 118, 233);
+  height: 80px;
+  width: 1250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+/*bottoni*/
+.logo-2,.botton-2{
+  background-color: #404EED ;
+  border: 1px solid  #434fd3;
+  color: white;
+  padding: 7px;
+
+}
