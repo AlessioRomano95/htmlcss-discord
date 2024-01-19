@@ -156,20 +156,51 @@ h2{
 .container-big{
   background-color: rgb(197, 197, 197);
   height: 1040px;
-  display: flex;
-  align-items: center;
-  justify-content: column;
-}
-
-.img-big{
-  background-color: #404EED ;
-  height: 935px;
-  width: 1250px;
-  display: flex;
-  align-items: center;
   justify-content: center;
 }
 
+h3{
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 50px 0 30px 0;
+  font-weight: 700;
+}
+
+#descrizione-tecnologia{
+  text-align: center;
+  font-size: 16px ;
+  line-height: 25px;
+  font-weight: 600;
+  width: 870px;
+  margin:auto;
+}
+
+.videocall{
+  display: flex;
+  justify-content: center;
+}
+
+.call-img{
+  width:1100px;
+}
+
+.avventura{
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 600px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: auto;
+  padding: px ;
+  text-align: center;
+}
+
+.azzurro{
+  background-color: #305fe2;
+  width: 100%;
+  
+}
 
 /*footer*/
 /* menu */
